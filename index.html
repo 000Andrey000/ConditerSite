@@ -10,47 +10,30 @@
 <body>
     <main class="main">
         <section class="section">
-            <div class="section__container section_img">
+            <div class="section-img section_title">
                 <div class="section__background-dark">
                     <header class="section__header">
-                        <img src="./images/logo_header.svg" alt="Логотип" class="section__header-img">
-                        <nav class="section__header_nav">
-                            <ul class="section__header_list list">
-                                <li class="section__header_li"><a class="section__header_link link" href="">Преимущества</a></li>
-                                <li class="section__header_li"><a class="section__header_link link" href="">О кондитере</a></li>
-                                <li class="section__header_li"><a class="section__header_link link" href="">Вопрос-ответ</a></li>
-                                <li class="section__header_li"><a class="section__header_link link" href="">Контакты</a></li>
+                        <a href="#"><img src="./images/logo_header.svg" alt="Логотип" class="section__header-img"></a>
+                        <nav class="section__header-nav">
+                            <ul class="section__header-list list">
+                                <li class="section__header-li"><a class="section__header-link link" href="#101">Преимущества</a></li>
+                                <li class="section__header-li"><a class="section__header-link link" href="#103">О кондитере</a></li>
+                                <li class="section__header-li"><a class="section__header-link link" href="#104">Вопрос-ответ</a></li>
+                                <li class="section__header-li"><a class="section__header-link link" href="#footer">Контакты</a></li>
                             </ul>
                         </nav>
-                        <button class="section__header_button btn">Написать в WhatsApp</button>
+                        <button class="section__header-button btn">Написать в WhatsApp</button>
                     </header>
                     <p class="section__subtitle">Ваш личный кондитер в Москве</p>
-                    <h1 class="section__title"><span class="section__title_first-stroke">Авторские торты</span><span class="section__title_second-stroke">на&nbsp;вкусной основе</span></h1>
-                    <p class="header__text"><span class="section__text_first-stroke">Специальное предложение для новых клиентов!</span><span class="section__text_second-stroke">При заказе на&nbsp;1800₽, дарю скидку&nbsp;10%</span></p>
+                    <h1 class="section__title"><span class="section__title-first-stroke">Авторские торты</span><span class="section__title-second-stroke">на&nbsp;вкусной основе</span></h1>
+                    <p class="section__header-text"><span class="section__text-first-stroke">Специальное предложение для новых клиентов!</span><span class="section__text-second-stroke">При заказе на&nbsp;1800₽, дарю скидку&nbsp;10%</span></p>
                     <button class="section__button btn">Оставить заявку</button>
-                    <ul class="section__ul list">
-                        <li class="section__ul_li">
-                            <h3 class="section__ul_title">Преимущество 1</h3>
-                            <p class="section__ul_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsa autem! Sapiente dolore, officia atque iure totam cumque eius commodi modi quis soluta necessitatibus aliquam architecto ratione. Voluptate, consequuntur ad?
-                            </p>
-                        </li>
-                        <li class="section__ul_li">
-                            <h3 class="section__ul_title">Преимущество 1</h3>
-                            <p class="section__ul_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsa autem! Sapiente dolore, officia atque iure totam cumque eius commodi modi quis soluta necessitatibus aliquam architecto ratione. Voluptate, consequuntur ad?
-                            </p>
-                        </li>
-                        <li class="section__ul_li">
-                            <h3 class="section__ul_title">Преимущество 1</h3>
-                            <p class="section__ul_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsa autem! Sapiente dolore, officia atque iure totam cumque eius commodi modi quis soluta necessitatibus aliquam architecto ratione. Voluptate, consequuntur ad?
-                            </p>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section section-work" id="101">
             <h2 class="section__title section__title-work">МОЙ ПОДХОД</h2>
-            <p class="section__subtitle section__subtitle-work"><span class="section__subtitle_text-first">На что я обращаю внимание</span><span class="section__subtitle_text-second">при изготовлении тортов</span></p>
+            <p class="section__subtitle section__subtitle-work"><span class="section__subtitle-text-first">На что я обращаю внимание</span><span class="section__subtitle-text-second">при изготовлении тортов</span></p>
             <ul class="section__ul list">
                 <li class="section__ul_li">
                     <img src="./images/heart_icon.svg" alt="Любовь к делу">
@@ -74,11 +57,14 @@
                 </li>
             </ul>
         </section>
-        <section class="section">
-            <h2 class="section__title section__title-work">Изделия</h2>
+        <section class="section" id="102">
+            <h2 class="section__title section__title-work">
+                <span>Изделия</span>
+                <button class="section__title-button btn">Добавить</button>
+            </h2>
             <ul class="section__products"></ul>
         </section>
-        <section class="section">
+        <section class="section" id="103">
             <h2 class="section__title  section__title-work">Эксперт</h2>
             <div class="section__about-container">
                 <img class="section__about-container_expert" src="./images/conditer.jpg" alt="Эксперт">
@@ -94,13 +80,13 @@
                     </li>
                     <li class="section__about-container_li">
                         <button class="section__about-container_button">&rarr;</button>
-                        <a href="#" class="section__about-container_link link">@shish_cake</a>.
+                        <a href="#" class="section__about-container_link link ">@mr_baker_s</a>.
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="section">
-            <div class="section__container section_consultation">
+        <section class="section" id="104">
+            <div class="section_consultation">
                 <p class="section__container_text">Забочусь о вас, полностью погружаюсь в вашу идею и концепцию торжества</p>
                 <div class="section__container_consultation">
                     <p class="section__container_consultation-text">Получите персональную бесплатную консультацию от кондитера</p>
@@ -108,26 +94,25 @@
                 </div>
             </div>
         </section>
-        <footer class="footer section">
+        <footer class="footer section" id="footer">
             <img src="./images/contacts.svg" alt="Наши контакты" class="footer__title-img">
             <p class="footer__subtitle">Свяжителсь со мной любым удобным способом</p>
             <ul class="footer__info list">
                 <li class="footer__info_item">Ваш личный кондитер @shish_cake</li>
                 <li class="footer__info_item">Время работы с 09:00 до 20:00</li>
-                <li class="footer__info_item">г. Екатеринбург ул. Кузнечная д. 82</li>
-                <li class="footer__info_item">+7 (912) 279-80-71</li>
+                <li class="footer__info_item"><a class="link" href="tel:+79122798071">+7 (912) 279-80-71</a></li>
             </ul>
             <ul class="footer__links list">
-                <li class="footer__links_item"><a class="footer__links_link" href="#"><img src="./images/instagram_image.svg" alt="Инстаграмм"></a></li>
+                <li class="footer__links_item"><a class="footer__links_link" href="@mr_baker_s"><img src="./images/instagram_image.svg" alt="Инстаграмм"></a></li>
                 <li class="footer__links_item"><a class="footer__links_link" href="#"><img src="./images/telegram_image.svg" alt="Инстаграмм"></a></li>
-                <li class="footer__links_item"><a class="footer__links_link" href="#"><img src="./images/VK_image.svg" alt="Инстаграмм"></a></li>
+                <li class="footer__links_item"><a class="footer__links_link" href="https://vk.com/mr_baker_s"><img src="./images/VK_image.svg" alt="Инстаграмм"></a></li>
             </ul>
             <ul class="footer__nav list">
-                <li class="footer__nav_item">Преимущества</li>
-                <li class="footer__nav_item">О кондитере</li>
-                <li class="footer__nav_item"><img src="./images/logo_footer.svg" alt="Логотип" class="footer__logo img"></li>
-                <li class="footer__nav_item">Вопрос-ответ</li>
-                <li class="footer__nav_item">Контакты</li>
+                <li class="footer__nav_item"><a href="#101">Преимущества</a></li>
+                <li class="footer__nav_item"><a href="#103">О кондитере</a></li>
+                <li class="footer__nav_item"><a href="#"><img src="./images/logo_footer.svg" alt="Логотип" class="footer__logo img"></a></li>
+                <li class="footer__nav_item"><a href="#104">Вопрос-ответ</a></li>
+                <li class="footer__nav_item"><a href="#footer">Контакты</a></li>
             </ul>
         </footer>
     </main>
