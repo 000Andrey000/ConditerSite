@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Торты БЕНТО Самара</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <main class="main">
@@ -16,13 +15,13 @@
                         <a href="#" class="section__header-logo link">mr_baker_s</a>
                         <nav class="section__header-nav">
                             <ul class="section__header-list list">
-                                <li class="section__header-li"><a class="section__header-link link" href="#101">Преимущества</a></li>
-                                <li class="section__header-li"><a class="section__header-link link" href="#103">О кондитере</a></li>
-                                <li class="section__header-li"><a class="section__header-link link" href="#104">Вопрос-ответ</a></li>
-                                <li class="section__header-li"><a class="section__header-link link" href="#footer">Контакты</a></li>
+                                <li class="section__header-list-item"><a class="section__header-link link" href="#101">Преимущества</a></li>
+                                <li class="section__header-list-item"><a class="section__header-link link" href="#103">О кондитере</a></li>
+                                <li class="section__header-list-item"><a class="section__header-link link" href="#104">Вопрос-ответ</a></li>
+                                <li class="section__header-list-item"><a class="section__header-link link" href="#footer">Контакты</a></li>
                             </ul>
                         </nav>
-                        <button class="section__header-button btn">Написать в WhatsApp</button>
+                        <a class="section__header-link-button link" href="https://wa.me/79879847796?text=Здравствуйте%2C+у+меня+есть+вопрос"><button class="section__header-button btn">Написать в WhatsApp</button></a>
                     </header>
                     <p class="section__subtitle">Ваш личный кондитер в Самаре</p>
                     <h1 class="section__title"><span class="section__title-first-stroke">Авторские торты</span><span class="section__title-second-stroke">на&nbsp;вкусной основе</span></h1>
@@ -58,11 +57,36 @@
             </ul>
         </section>
         <section class="section" id="102">
-            <h2 class="section__title section__title-work">
-                <span>Изделия</span>
-                <button class="section__title-button btn">Добавить</button>
-            </h2>
-            <ul class="section__products"></ul>
+            <h2 class="section__title section__title-work">Изделия</h2>
+            <ul class="section__products list">
+                <li class="section__products-item">
+                    <img class="section__products-item_image" src="./images/productsImages/BigCake.png" alt="Торты от 1кг">
+                    <h3 class="section__products-item_title">Торты от 1кг</h3>
+                    <p class="section__products-item_description">Торты доступны к заказу от 1 кг</p>
+                    <a href="https://wa.me/79879847796?text=Здравствуйте%2C+Хотелось+бы+оставить+заявку+на+торт"><button class="section__button section__products-item-button btn">Оставить заявку</button></a>
+                </li>
+                <li class="section__products-item">
+                    <img class="section__products-item_image" src="./images/productsImages/Profiteroles.png" alt="Профитроли">
+                    <h3 class="section__products-item_title">Профитроли</h3>
+                    <p class="section__products-item_description">Это воздушные и лёгкие пирожные с хрустящей корочкой и нежным кремом внутри покоряет сердце любого гурмана.</p>
+                    <a href="https://wa.me/79879847796?text=Здравствуйте%2C+Хотелось+бы+оставить+заявку+на+профитроли"><button class="section__button section__products-item-button btn">Оставить заявку</button></a>
+                </li>
+                <li class="section__products-item">
+                    <img class="section__products-item_image" src="./images/productsImages/Moti1.png" alt="МОТИ">
+                    <h3 class="section__products-item_title">МОТИ</h3>
+                    <p class="section__products-item_description">Моти - нежное пирожное с ярким вкусом.</p>
+                    <a href="https://wa.me/79879847796?text=Здравствуйте%2C+Хотелось+бы+оставить+заявку+на+моти"><button class="section__button section__products-item-button btn">Оставить заявку</button></a>
+                </li>
+                <li class="section__products-item">
+                    <img class="section__products-item_image" src="./images/productsImages/bentoCake.png" alt="Бенто-торт">
+                    <h3 class="section__products-item_title">Бенто-торт</h3>
+                    <p class="section__products-item_description">
+                        <p class="section__products-item_description">Мини тортик весом 400-450 гр. для одного или для двоих</p> 
+                        <p class="section__products-item_description">По желанию, в наборе идёт свеча и ложечка.</p>
+                    </p>
+                    <a href="https://wa.me/79879847796?text=Здравствуйте%2C+Хотелось+бы+оставить+заявку+на+Бенто-торт"><button class="section__button section__products-item-button btn">Оставить заявку</button></a>
+                </li>
+            </ul>
         </section>
         <section class="section" id="103">
             <h2 class="section__title  section__title-work">Эксперт</h2>
@@ -74,8 +98,9 @@
                     </li>
                     <li class="section__about-container_li">
                         <div class="section__about-conditer-container">
-                            <p class="section__about-container_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sint officiis blanditiis excepturi odit nostrum accusantium, ut, amet laborum magni officia aliquid ipsa atque quas. Asperiores, temporibus eum. Optio, magni!</p>
-                            <p class="section__about-container_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis cupiditate maxime hic architecto iste ad temporibus laborum delectus, soluta neque suscipit id debitis veritatis deleniti consequuntur! Ipsum pariatur hic nam?</p>
+                            <p class="section__about-container_text">Меня зовут Екатерина Петрилионис. Я&nbsp;кондитер. Торты и&nbsp;десерты&nbsp;&mdash; моя любовь с&nbsp;детства. Моя основная ценность заключается в&nbsp;создании качественного продукта. Я&nbsp;стремлюсь познакомить Вас с&nbsp;настоящим вкусом домашнего торта и&nbsp;оставить здесь навсегда. А&nbsp;ещё я&nbsp;мама, и&nbsp;для меня очень важным является забота о&nbsp;здоровье и&nbsp;безопасности. Создаю десерты из&nbsp;самых свежих и&nbsp;натуральных продуктов.</p>
+                            <p class="section__about-container_text">Хочу чтобы каждый кусочек моих десертов радовал Вас своим вкусом и&nbsp;красотой.</p>
+                            <p class="section__about-container_text">Десерты, которые можно без повода...</p>
                         </div>
                     </li>
                     <li class="section__about-container_li">
@@ -94,11 +119,11 @@
                 </div>
             </div>
         </section>
-        <footer class="footer section" id="footer">
+        <footer class="section footer" id="footer">
             <img src="./images/contacts.svg" alt="Наши контакты" class="footer__title-img">
             <p class="footer__subtitle">Свяжителсь со мной любым удобным способом</p>
             <ul class="footer__info list">
-                <li class="footer__info_item">Ваш личный кондитер @shish_cake</li>
+                <li class="footer__info_item">Ваш личный кондитер <a class="footer__info-link link" href="https://instagram.com/mr_baker_s?igshid=OGQ5ZDc2ODk2ZA==">@mr_baker_s</a></li>
                 <li class="footer__info_item">Время работы с 09:00 до 20:00</li>
                 <li class="footer__info_item"><a class="footer__info-link link" href="tel:+79122798071">+7 (912) 279-80-71</a></li>
             </ul>
@@ -116,6 +141,5 @@
             </ul>
         </footer>
     </main>
-    <script type="module" src="./js/script.js"></script>
 </body>
 </html>
