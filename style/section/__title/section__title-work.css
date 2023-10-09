@@ -1,0 +1,12 @@
+.section__title-work {
+    color: #921515;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #921515;;
+}

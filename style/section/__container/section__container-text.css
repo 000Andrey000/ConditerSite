@@ -1,0 +1,14 @@
+.section__container-text {
+    margin: 0 auto;
+    max-width: 600px;
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Tenor Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+}

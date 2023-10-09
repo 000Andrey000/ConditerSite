@@ -1,0 +1,6 @@
+.section__about-container-list-item {
+    margin-bottom: 30px;
+}
+.section__about-container-list-item:last-child {
+    margin-bottom: 0;
+}

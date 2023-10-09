@@ -1,0 +1,10 @@
+.section__work-list-item {
+    color: #fff;
+    background-color: #921515;
+    border-radius: 15px;
+    padding: 28px 21px 54px 22px;
+    margin-right: 10px;
+}
+.section__work-list-item:last-child {
+    margin-right: 0;
+}

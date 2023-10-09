@@ -1,0 +1,15 @@
+.section__container-consultation-button {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #921515;
+    padding: 18px;
+    width: 100%;
+    color: #ECE4DE;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.44px;
+}

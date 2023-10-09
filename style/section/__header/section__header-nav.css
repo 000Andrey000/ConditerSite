@@ -1,0 +1,5 @@
+.section__header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}

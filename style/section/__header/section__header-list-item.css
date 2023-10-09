@@ -1,0 +1,7 @@
+.section__header-list-item {
+    margin-right: 50px;
+}
+
+.section__header-list-item:last-child {
+    margin-right: 0;
+}
